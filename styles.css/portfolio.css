@@ -25,6 +25,7 @@ height: 2074px;
         font-size: 18px;
         line-height: 21px;
         color: #4D5AE5;
+        text-transform: uppercase;
          }
          .logo-studio-two{
             width: 71px;
@@ -35,6 +36,7 @@ height: 2074px;
             font-size: 18px;
             line-height: 21px;
             color: #F4F4FD;
+            text-transform: uppercase;
         }
         .logo-studio-one{
         width: 71px;

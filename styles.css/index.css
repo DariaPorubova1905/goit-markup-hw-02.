@@ -3,10 +3,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     cursor: pointer; 
 }
 .header{
+display: flex;
 width: 1440px;
 height: 72px;
 background: #FFFFFF;
@@ -20,6 +21,7 @@ background: #FFFFFF;
     font-size: 18px;
     line-height: 21px;
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 .logo-studio-two{
     width: 71px;
@@ -29,6 +31,7 @@ background: #FFFFFF;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
+    text-transform: uppercase;
     color: #F4F4FD;
 }
 .logo-studio-one{
@@ -48,7 +51,6 @@ color: #2E2F42;}
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
     color: #2E2F42;
 }
 .adress-list{
@@ -58,7 +60,6 @@ color: #2E2F42;}
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     color: #434455;
     
 }
@@ -154,8 +155,5 @@ height: 310px;
 background: #2E2F42;
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
 color: #E7E9FC;
 }
