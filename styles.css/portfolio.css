@@ -6,19 +6,13 @@
     line-height: 24px;
     cursor: pointer;
     position: relative;
-width: 1440px;
-height: 2074px;
-
+    width: 1440px;
+    height: 2074px;
     }
 .header{
-    width: 1440px;
-    height: 72px;
     background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
     }
 .logo-web{
-        width: 44px;
-        height: 22px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
@@ -28,8 +22,6 @@ height: 2074px;
         text-transform: uppercase;
          }
          .logo-studio-two{
-            width: 71px;
-            height: 22px;
             font-family: 'Raleway';
             font-style: normal;
             font-weight: 800;
@@ -39,8 +31,6 @@ height: 2074px;
             text-transform: uppercase;
         }
         .logo-studio-one{
-        width: 71px;
-        height: 24px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
@@ -65,11 +55,7 @@ height: 2074px;
         color: #434455;
         
     }
-    .section-one{
-dposition: absolute;
-width: 586px;
-height: 48px;
-    }
+    
 .button{
 background: #F4F4FD;
 font-family: 'Roboto';
@@ -87,8 +73,6 @@ font-weight: 500;
 color: #FFFFFF;
 }
 .title-three{
-    width: 249px;
-    height: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -96,16 +80,12 @@ color: #FFFFFF;
     color: #2E2F42;
     }
 .example-text{
-    width: 51px;
-    height: 24px;
     font-family: 'Roboto';
     font-style: normal;
     color: #434455;
      }    
 .footer{
-        width: 1440px;
-        height: 310px;
-        background: #2E2F42;
+       background: #2E2F42;
         font-family: 'Roboto';
         font-style: normal;
         color: #E7E9FC;
