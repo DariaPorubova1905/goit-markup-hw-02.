@@ -8,6 +8,7 @@
     background-color: #FFFFFF;
     color: #434455;;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 ul{
     list-style: none;
@@ -126,6 +127,8 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 color: #4D5AE5;
+letter-spacing: 0.04em;
+line-height: 1.5;
 }
 .button:hover,
 .button:focus{
@@ -137,20 +140,23 @@ font-weight: 500;
 color: #FFFFFF;
 }
 .title-three{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
     }
 .example-text{
-    font-family: 'Roboto';
     font-style: normal;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
      }    
 .footer{
        background: #2E2F42;
-        font-family: 'Roboto';
         font-style: normal;
         color: #E7E9FC;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
          }
