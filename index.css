@@ -1,0 +1,177 @@
+.body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    cursor: pointer; 
+    color: #FFFFFF;
+}
+.header{
+display: flex;
+background: #FFFFFF;
+}
+.logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.logo-web{
+    color: #4D5AE5;
+    }
+.logo-studio-two{
+    color: #F4F4FD;
+}
+.logo-studio-one{
+color: #2E2F42;}
+.nav-list{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 150%;
+}
+.portfolio{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 150%;  
+}
+.portfolio:focus,
+.portfolio:hover{
+    color: #404BBF;
+}
+.studio{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 150%;
+}
+.studio:focus,
+.studio:hover{
+    color: #404BBF;
+}
+.contacts{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 150%;
+}
+.contacts:focus,
+.contacts:hover{
+    color: #404BBF;
+}
+.adress-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 150%;
+}
+.email{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 150%;
+}
+.phone{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 150%;
+}
+.email:focus,
+.email:hover{
+    color: #404BBF;
+}
+.phone:focus,
+.email:hover{
+    color: #404BBF;
+}
+.section-one{
+background: #2E2F42;
+}
+.h-one{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.02em;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF;
+    line-height: 107%;
+}
+.button-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+color: #FFFFFF;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+line-height: 150%;
+cursor: pointer;
+}
+
+.button-text:hover,
+.button-text:focus{
+    background-color: #404BBF;;
+}
+
+.section-two{
+color: #434455;
+}
+.title-three{
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+color: #2E2F42;
+letter-spacing: 0.02em;
+}
+.section-three-title-two{
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+color: #2E2F42;
+letter-spacing: 0.02em;
+}
+.section-four{
+background-color: #F4F4FD;
+color: #434455;
+}
+.section-four-title-two{
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+color: #2E2F42;
+letter-spacing: 0.02em;
+}
+.section-four-title-three{
+font-weight: 500;
+font-size: 20px;
+color: #2E2F42;
+letter-spacing: 0.02em;
+line-height: 120%;
+}
+.footer{
+background-color: #2E2F42;
+color: #E7E9FC;
+letter-spacing: 0.02em;
+line-height: 150%;
+}
