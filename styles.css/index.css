@@ -1,22 +1,26 @@
 .body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif ;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     cursor: pointer; 
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #434455;;
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 .header{
-display: flex;
+
 background: #FFFFFF;
 }
 .logo{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 133%;
+    line-height: 1.33;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -28,85 +32,85 @@ background: #FFFFFF;
     color: #F4F4FD;
 }
 .logo-studio-one{
-color: #2E2F42;}
+    color: #2E2F42;}
 .nav-list{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    line-height: 150%;
+    line-height: 1.5;
     text-decoration: none;
+    list-style: none;
 }
 .portfolio{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    line-height: 150%;  
+    line-height: 1.5;  
     text-decoration: none;
+    list-style: none;
 }
 .portfolio:focus,
 .portfolio:hover{
     color: #404BBF;
 }
 .studio{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    line-height: 150%;
+    line-height: 1.5;
     text-decoration: none;
+    list-style: none;
 }
 .studio:focus,
 .studio:hover{
     color: #404BBF;
 }
 .contacts{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    line-height: 150%;
+    line-height: 1.5;
     text-decoration: none;
+    list-style: none;
 }
 .contacts:focus,
 .contacts:hover{
     color: #404BBF;
 }
 .adress-list{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     letter-spacing: 0.02em;
-    line-height: 150%;
+    line-height: 1.5;
     text-decoration: none;
+    list-style: none;
 }
 .email{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     text-decoration: none;
     letter-spacing: 0.02em;
-    line-height: 150%;
+    line-height: 1.5;
+    list-style: none;
 
 }
 .phone{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     letter-spacing: 0.02em;
-    line-height: 150%;
+    line-height: 1.5;
     text-decoration: none;
+    list-style: none;
 }
 .email:focus,
 .email:hover{
@@ -120,13 +124,12 @@ color: #2E2F42;}
 background: #2E2F42;
 }
 .h-one{
-    font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0.02em;
     font-size: 56px;
     line-height: 60px;
     color: #FFFFFF;
-    line-height: 107%;
+    line-height: 1.07;
 }
 .button-text{
 font-family: 'Roboto';
@@ -135,8 +138,13 @@ font-weight: 500;
 color: #FFFFFF;
 letter-spacing: 0.04em;
 background-color: #4D5AE5;
-line-height: 150%;
+line-height: 1.5;
 cursor: pointer;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
 }
 
 .button-text:hover,
@@ -150,14 +158,18 @@ color: #434455;
 .title-three{
 font-weight: 500;
 font-size: 20px;
-line-height: 120%;
+line-height: 1.2;
 color: #2E2F42;
 letter-spacing: 0.02em;
+}
+.section-two-text{
+    color: #434455;
+
 }
 .section-three-title-two{
 font-weight: 700;
 font-size: 36px;
-line-height: 111%;
+line-height: 1.11;
 color: #2E2F42;
 letter-spacing: 0.02em;
 }
@@ -165,10 +177,22 @@ letter-spacing: 0.02em;
 background-color: #F4F4FD;
 color: #434455;
 }
+.tom{
+    background: #FFFFFF;
+}
+.mark{
+    background: #FFFFFF;
+}
+.camila{
+    background: #FFFFFF;
+}
+.daniel{
+    background: #FFFFFF;
+}
 .section-four-title-two{
 font-weight: 700;
 font-size: 36px;
-line-height: 111%;
+line-height: 1.11;
 color: #2E2F42;
 letter-spacing: 0.02em;
 }
@@ -177,11 +201,11 @@ font-weight: 500;
 font-size: 20px;
 color: #2E2F42;
 letter-spacing: 0.02em;
-line-height: 120%;
+line-height: 1.2;
 }
 .footer{
 background-color: #2E2F42;
 color: #E7E9FC;
 letter-spacing: 0.02em;
-line-height: 150%;
+line-height: 1.5;
 }

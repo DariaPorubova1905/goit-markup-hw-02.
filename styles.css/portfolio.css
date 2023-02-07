@@ -1,59 +1,124 @@
 .body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif ;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    cursor: pointer;
-    position: relative;
-    }
-.header{
-    display: Flex;
-    background: #FFFFFF;
-    }
-.logo-web{
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
-        color: #4D5AE5;
-        text-transform: uppercase;
-         }
-         .logo-studio-two{
+    line-height: 1.5;
+    cursor: pointer; 
+    background-color: #FFFFFF;
+    color: #434455;;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+    .header{
+        background: #FFFFFF;
+        }
+        .logo{
             font-family: 'Raleway';
-            font-style: normal;
             font-weight: 800;
             font-size: 18px;
-            line-height: 21px;
-            color: #F4F4FD;
+            line-height: 1.33;
             text-transform: uppercase;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+        }
+        .logo-web{
+            color: #4D5AE5;
+            }
+        .logo-studio-two{
+            color: #F4F4FD;
         }
         .logo-studio-one{
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 24px;
-        text-transform: uppercase;
         color: #2E2F42;}
-.nav-list{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #2E2F42;
-    }
-.adress-list{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #434455;
+        .nav-list{
+            font-weight: 500;
+            font-size: 16px;
+            color: #2E2F42;
+            letter-spacing: 0.02em;
+            line-height: 1.5;
+            text-decoration: none;
+            list-style: none;
+        }
+        .portfolio{
+            font-weight: 500;
+            font-size: 16px;
+            color: #2E2F42;
+            letter-spacing: 0.02em;
+            line-height: 1.5;  
+            text-decoration: none;
+            list-style: none;
+        }
+        .portfolio:focus,
+        .portfolio:hover{
+            color: #404BBF;
+        }
+        .studio{
+            font-weight: 500;
+            font-size: 16px;
+            color: #2E2F42;
+            letter-spacing: 0.02em;
+            line-height: 1.5;
+            text-decoration: none;
+            list-style: none;
+        }
+        .studio:focus,
+        .studio:hover{
+            color: #404BBF;
+        }
+        .contacts{
+            font-weight: 500;
+            font-size: 16px;
+            color: #2E2F42;
+            letter-spacing: 0.02em;
+            line-height: 1.5;
+            text-decoration: none;
+            list-style: none;
+        }
+        .contacts:focus,
+        .contacts:hover{
+            color: #404BBF;
+        }
+        .adress-list{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #434455;
+            letter-spacing: 0.02em;
+            line-height: 1.5;
+            text-decoration: none;
+            list-style: none;
+        }
+        .email{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #434455;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            line-height: 1.5;
+            list-style: none;
         
-    }
+        }
+        .phone{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #434455;
+            letter-spacing: 0.02em;
+            line-height: 1.5;
+            text-decoration: none;
+            list-style: none;
+        }
+        .email:focus,
+        .email:hover{
+            color: #404BBF;
+        }
+        .phone:focus,
+        .email:hover{
+            color: #404BBF;
+        }
     
 .button{
 background: #F4F4FD;
